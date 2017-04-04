@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com">
+
+    <uses-sdk android:minSdkVersion="11" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/read"
+        android:roundIcon="@mipmap/read"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity android:name=".readingsalon.MainActivity"
+            android:label="@string/app_name"
+            android:icon="@mipmap/read">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".readingsalon.Contemporary"
+            android:label="@string/contemporary_title"
+            android:logo="@drawable/contemporary"
+            android:parentActivityName=".readingsalon.MainActivity"/>
+        <activity android:name=".readingsalon.Crime"
+            android:label="Crime"
+            android:logo="@drawable/crime"
+            android:parentActivityName=".readingsalon.MainActivity"/>
+        <activity android:name=".readingsalon.Detective"
+            android:label="Detective"
+            android:logo="@drawable/detective"
+            android:parentActivityName=".readingsalon.MainActivity"/>
+        <activity android:name=".readingsalon.FairyTale"
+            android:label="FairyTale"
+            android:logo="@drawable/fairytale"
+            android:parentActivityName=".readingsalon.MainActivity"/>
+        <activity android:name=".readingsalon.Humor"
+            android:label="Humor"
+            android:logo="@drawable/humor"
+            android:parentActivityName=".readingsalon.MainActivity"/>
+        <activity android:name=".readingsalon.Mythology"
+            android:label="Mythology"
+            android:logo="@drawable/mythology"
+            android:parentActivityName=".readingsalon.MainActivity"/>
+        <activity android:name=".readingsalon.Romance"
+            android:label="Romance"
+            android:logo="@drawable/romance"
+            android:parentActivityName=".readingsalon.MainActivity"/>
+        <activity android:name=".readingsalon.Science"
+            android:label="Science"
+            android:logo="@drawable/science"
+            android:parentActivityName=".readingsalon.MainActivity"/>
+        <activity android:name=".readingsalon.Thrillers"
+            android:label="Thrillers"
+            android:logo="@drawable/thrillers"
+            android:parentActivityName=".readingsalon.MainActivity"/>
+        <activity android:name=".readingsalon.showResult"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+    </application>
+
+</manifest>

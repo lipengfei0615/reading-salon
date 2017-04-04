@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Reading Salon</string>
+
+    <style name="Theme.ToolBar.Book" parent="Theme.AppCompat.Light.NoActionBar"></style>
+    <string name="contemporary_title">Contemporary</string>
+    <string name="title_activity_contemporary_read">ContemporaryRead</string>
+
+</resources>

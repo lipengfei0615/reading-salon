@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <!-- 设置ActionBar Style -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar">
+        <!--设置ActionBar的背景-->
+        <item name="android:background">@color/colorPrimary</item>
+        <!--设置ActionBar的标题的样式-->
+        <item name="android:titleTextStyle">@style/ActionBarTextStyle</item>
+    </style>
+
+    <style name="ActionBarTextStyle" >
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+
+
+</resources>
